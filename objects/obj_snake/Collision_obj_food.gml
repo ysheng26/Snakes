@@ -2,10 +2,6 @@
 // You can write your code in this editor
 
 global.score += 1;
-//show_debug_message(global.score);
-
-// use obj_food's position as new head and destroy obj_food. This should create a new obj_food
-//ds_list_insert(snake_block_list, 0, new Position(other.x, other.y));
 
 if snake_direction == Direction.Up {
     //y -= obj_game_manager.block_size;

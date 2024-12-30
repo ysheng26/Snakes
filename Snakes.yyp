@@ -35,6 +35,7 @@
   },
   "name":"Snakes",
   "resources":[
+    {"id":{"name":"fa_arial","path":"fonts/fa_arial/fa_arial.yy",},},
     {"id":{"name":"obj_food","path":"objects/obj_food/obj_food.yy",},},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
     {"id":{"name":"obj_gameover","path":"objects/obj_gameover/obj_gameover.yy",},},

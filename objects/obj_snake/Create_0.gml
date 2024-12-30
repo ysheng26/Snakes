@@ -9,7 +9,8 @@ enum Direction {
     Left,
 }
 
-snake_speed = 20;
+snake_speed = 15;
+max_snake_speed = 4;
 alarm[0] = snake_speed;
 
 snake_direction = Direction.Up;

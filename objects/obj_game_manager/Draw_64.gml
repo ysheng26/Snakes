@@ -1,4 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_text_transformed(16, 16, global.score, 2, 2, 0);
+var prev_font = draw_get_font();
+draw_set_font(fa_arial);
+draw_text(16, 16, global.score);
+draw_set_font(prev_font);
+
